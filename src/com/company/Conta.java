@@ -55,8 +55,8 @@ public class Conta {
 
     //Limite do cartão de crédito
     public double getLimite() {
-        // O limite corresponde a 80% do valor do saldo em conta
-        this.limite = this.saldo*0.8;
+        // O limite corresponde a 60% do valor do saldo em conta
+        this.limite = this.saldo*0.6;
 
         return limite;
     }
